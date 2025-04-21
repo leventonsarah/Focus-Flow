@@ -17,7 +17,7 @@ struct PomodoroTimerView: View {
 //    }
 
     var totalDuration: Int {
-        isBreakTime ? 5 : 10 // 5s break, 10s focus session for testting
+        isBreakTime ? 5 : 10 // 5s break, 10s focus session for testing
     }
 
     var progress: Double {
